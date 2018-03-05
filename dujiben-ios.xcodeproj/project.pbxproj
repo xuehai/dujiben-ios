@@ -11,6 +11,9 @@
 		16A24E6220406FED00A39A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A24E6120406FED00A39A74 /* Assets.xcassets */; };
 		16A24E6E2040708600A39A74 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A24E6C2040708600A39A74 /* RootViewController.swift */; };
 		16A24E6F2040708600A39A74 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A24E6D2040708600A39A74 /* RootViewController.xib */; };
+		8C97F05B2047CCE50073160A /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97F0592047CCE50073160A /* AddBookViewController.swift */; };
+		8C97F05C2047CCE50073160A /* AddBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C97F05A2047CCE50073160A /* AddBookViewController.xib */; };
+		8C97F05F2047CF3D0073160A /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C97F05E2047CF3D0073160A /* AppConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		16A24E6620406FED00A39A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A24E6C2040708600A39A74 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		16A24E6D2040708600A39A74 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		8C97F0592047CCE50073160A /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		8C97F05A2047CCE50073160A /* AddBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddBookViewController.xib; sourceTree = "<group>"; };
+		8C97F05E2047CF3D0073160A /* AppConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 				16A24E5A20406FED00A39A74 /* AppDelegate.swift */,
 				16A24E6C2040708600A39A74 /* RootViewController.swift */,
 				16A24E6D2040708600A39A74 /* RootViewController.xib */,
+				8C97F0592047CCE50073160A /* AddBookViewController.swift */,
+				8C97F05A2047CCE50073160A /* AddBookViewController.xib */,
 				16A24E6120406FED00A39A74 /* Assets.xcassets */,
 				16A24E6620406FED00A39A74 /* Info.plist */,
+				8C97F05E2047CF3D0073160A /* AppConfig.plist */,
 			);
 			path = "dujiben-ios";
 			sourceTree = "<group>";
@@ -120,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C97F05F2047CF3D0073160A /* AppConfig.plist in Resources */,
 				16A24E6F2040708600A39A74 /* RootViewController.xib in Resources */,
+				8C97F05C2047CCE50073160A /* AddBookViewController.xib in Resources */,
 				16A24E6220406FED00A39A74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A24E5B20406FED00A39A74 /* AppDelegate.swift in Sources */,
+				8C97F05B2047CCE50073160A /* AddBookViewController.swift in Sources */,
 				16A24E6E2040708600A39A74 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

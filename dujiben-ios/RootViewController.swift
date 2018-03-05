@@ -9,9 +9,9 @@
 import UIKit
 
 class RootViewController: UIViewController, UITableViewDataSource {
+    let cellIdentifier = "TableViewCell"
     
     @IBOutlet weak var tableView : UITableView!
-    let cellIdentifier = "TableViewCell"
 
     override func viewDidLoad() {
         super.viewDidLoad()
